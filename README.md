@@ -1,2 +1,2 @@
 # stack-math-calculator
-Реализован класс, который принимает строку с арифметическим выражением типа "20*(-5)+8-(7+9)" и возвращает результат данного выражения. Реализация заключается в использовании двух стеков - чисел и операторов, которые итеративно опустошаются, следуя законам арифметики, основанным на приоритете операций.
+Given app has implemented class, that takes your arithmetic expression ("20*(-5)+157-(12/6)", for example) and returns correct (by the rules you defined, for now those are rules of classic math) result. The basic concept is creating two stacks - for operators and digits. Iteratively we go to each value in the stack and execute needed operations. You can set priority of operations, add new operations (like custom binary or unary etc.).
