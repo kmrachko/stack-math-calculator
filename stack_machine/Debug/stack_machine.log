@@ -1,0 +1,40 @@
+﻿Построение начато 11.07.2015 14:56:17.
+     1>Проект "D:\с ноута\Институт\CPP\stack_machine\stack_machine\stack_machine.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\stack_machine.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\stack_machine.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\stack_machine.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stack_machine.cpp stack_math.cpp
+         stack_math.cpp
+     1>d:\с ноута\институт\cpp\stack_machine\stack_machine\stack_math.cpp(14): warning C4996: 'std::basic_string<_Elem,_Traits,_Ax>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+                 d:\microsoft visual studio 10.0\vc\include\xstring(1556): см. объявление "std::basic_string<_Elem,_Traits,_Ax>::copy"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\с ноута\институт\cpp\stack_machine\stack_machine\stack_math.cpp(80): warning C4018: <: несоответствие типов со знаком и без знака
+         stack_machine.cpp
+         Создание кода...
+     1>d:\с ноута\институт\cpp\stack_machine\stack_machine\stack_math.cpp(78): warning C4715: StackMath::get_priority: значение возвращается не при всех путях выполнения
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\stack_machine.exe.embed.manifest.res" Debug\stack_machine_manifest.rc 
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\с ноута\Институт\CPP\stack_machine\Debug\stack_machine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\stack_machine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\с ноута\Институт\CPP\stack_machine\Debug\stack_machine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\с ноута\Институт\CPP\stack_machine\Debug\stack_machine.lib" /MACHINE:X86 Debug\stack_machine.exe.embed.manifest.res
+         Debug\stack_machine.obj
+         Debug\stack_math.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1123: сбой при преобразовании в COFF: файл недопустим или поврежден
+     1>Построение проекта "D:\с ноута\Институт\CPP\stack_machine\stack_machine\stack_machine.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:03.20
